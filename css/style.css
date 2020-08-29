@@ -1,0 +1,66 @@
+:root {
+    --crossfit: "Oswald", sans-serif; /* Crossfit, Noms i tipus de WOD */
+    --girls: "IBM Plex Sans", sans-serif; /* The Girls */
+    --descripcio: "Playfair Display", serif; /* Descripció */
+}
+
+/* GLOBAL */
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0 calc(100vw / 4);
+}
+h1 {
+    font-family: var(--girls);
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+/* HEADER */
+
+header {
+    /* background-color: #ff6347; */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cf {
+    font-family: var(--crossfit);
+    float: right;
+}
+
+.menu-bar {
+    background-color: #ffffff;
+    height: 0.5rem;
+    width: 100%;
+    position: relative;
+}
+.menu-bar i {
+    position: absolute;
+    font-size: 2rem;
+    left: -3rem;
+    top: -0.75rem;
+}
+
+.menu-bar ul {
+    color: #000000;
+    font-family: var(--girls);
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+/* GIRLS */
