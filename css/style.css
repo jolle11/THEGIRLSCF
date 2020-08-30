@@ -64,3 +64,6 @@ header {
     display: none;
 }
 /* GIRLS */
+.container {
+    display: grid;
+}
