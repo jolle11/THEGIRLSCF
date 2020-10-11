@@ -1,7 +1,7 @@
 :root {
-    --crossfit: "Oswald", sans-serif; /* Crossfit, Noms i tipus de WOD */
-    --girls: "IBM Plex Sans", sans-serif; /* The Girls */
-    --descripcio: "Playfair Display", serif; /* Descripció */
+    --crossfit: 'Oswald', sans-serif; /* Crossfit, Noms i tipus de WOD */
+    --girls: 'IBM Plex Sans', sans-serif; /* The Girls */
+    --descripcio: 'Playfair Display', serif; /* Descripció */
 }
 
 /* GLOBAL */
@@ -66,4 +66,5 @@ header {
 /* GIRLS */
 .container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
